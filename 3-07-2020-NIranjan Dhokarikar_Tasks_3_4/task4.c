@@ -63,19 +63,7 @@ int main()
 	{
 		insert(root,ele[i]);
 	}
-	
-	
 
-
-	/*root = insert(root, 50);              // main root initialised to be 50
-	insert(root, 30); 
-	insert(root, 20); 
-	insert(root, 40);                  // inserting the elements into the bst
-	insert(root, 70); 
-	insert(root, 60); 
-	insert(root, 80); */
-
-	// print inoder traversal of the BST 
 	postorder(root); 
 
 	return 0; 
