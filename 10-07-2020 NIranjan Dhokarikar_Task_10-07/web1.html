@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>1st website</title>
+
+    </head>
+    <body>
+
+        <div class="background">
+          
+        <div class="projects">
+
+            <input type="text" placeholder="Enter Your Name:" id="num"/>
+            <button type="submit" onclick="showName()">Submit</button>
+            <h3 id = "number"></h3>
+        
+        </div>
+
+        <div class="projects">
+
+            <h4><strong>Enter the details:</strong></h4>
+            <a href = "https://www.w3schools.com/html/html_links.asp">Link in Description:</a>
+        
+        </div>
+
+        </div>
+
+        <script>
+
+            function showName()
+            {
+                let num = document.getElementById("num");
+                document.getElementById("number").innerHTML = num.value;
+            }
+            
+            function myFunction() 
+            {
+              document.getElementById("myDropdown").classList.toggle("show");
+            }
+            
+        </script>
+    </body>
+</html>

@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+<title>Trf Task </title>
+<meta name="author" content="Niranjan">
+<link rel="stylesheet" href="web2.css">
+</head>
+
+
+
+<body>
+
+    <div class="background">
+
+<div id="about-section">
+
+    <h1 style="color: red;"><u>Welcome to Projecta...!!</u></h1>
+    <strong><p>Guidelines</p></strong>
+    <ul>
+        <li><strong>Home</strong></li>
+        <li><strong>About</strong></li>
+        <li><strong>Projecta Alumnies</strong></li>
+    </ul>
+
+</div>
+
+<h4><strong>Projects And Ideas: </strong></h4>
+
+<div class="dropdown">
+    <button onclick="myFunction()" class="dropbtn">Dropdown</button>
+    <div id="myDropdown" class="dropdown-content">
+        <h4><strong>Your Projects:</strong></h4>
+        <a href = "https://www.youtube.com/watch?v=RBSGKlAvoiM&t=3s">Link 1:</a>
+        <a href = "welcome.html">Link 2:</a>
+        <a href = "web1.html">Link 3:</a>
+
+    </div>
+</div>
+
+
+<div id="education">
+
+    <h4 style="color: red;"><strong><u>Further Education and Projects:</strong></u></h4>
+    <ul>
+        <li><strong>Opportunities</strong></li>
+        <li><strong>New Ideas</strong></li>
+        <li><strong>Future Innovations And Projects Ideas</strong></li>
+
+    </ul>
+
+</div>
+
+    </div>
+
+<script>
+
+function myFunction() 
+{
+  document.getElementById("myDropdown").classList.toggle("show");
+}
+
+
+window.onclick = function(event) 
+{
+  if (!event.target.matches('.dropbtn')) 
+  {
+    var dropdowns = document.getElementsByClassName("dropdown-content");
+    var i;
+    for (i = 0; i < dropdowns.length; i++) 
+    {
+      var openDropdown = dropdowns[i];
+      if (openDropdown.classList.contains('show')) 
+      {
+        openDropdown.classList.remove('show');
+      }
+    }
+  }
+}
+
+</script>
+
+    </body>
+</html>
